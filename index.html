@@ -3,6 +3,12 @@
     <head>
         <link rel="stylesheet" type="text/css" href="style.css"/>
 
+
+        <script>
+            function refreshPage() {
+                window.location.reload();
+            }
+        </script>
     </head>
     <body>
         <header id="rotd">
@@ -15,7 +21,7 @@
         </section>
         <section class="button-container">
             <article class="button">
-                <button class="change-dice">Press me</button>
+                <button class="change-dice" onClick="refreshPage()">Press me</button>
             </article>
         </section>
         <footer class="contact-us">
