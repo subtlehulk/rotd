@@ -24,9 +24,10 @@ h1 {
 }
 
 .dice {
-    width: 100%;
-    height: 100%;
-    background-color: blue;
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .dice p {
     color: white;
@@ -36,11 +37,11 @@ h1 {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
+    
 }
 .button {
     width: 100%;
-    background-color: green;
+   
     text-align: center;
 }
 .change-dice {
