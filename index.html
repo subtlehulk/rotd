@@ -33,35 +33,35 @@
 
             function showImage(){
                 if(whichImage==0){
-                document.write('<img src="'+theImages[whichImage]+'" border=0 width=500 height=500></a>');
+                document.write('<img src="'+theImages[whichImage]+'" border=0 width=602 height=600></a>');
                 }
                 else if(whichImage==1){
-                document.write('<img src="'+theImages[whichImage]+'" border=0 width=500 height=500></a>');
+                document.write('<img src="'+theImages[whichImage]+'" border=0 width=602 height=600></a>');
                 }
                 else if(whichImage==2){
-                document.write('<img src="'+theImages[whichImage]+'" border=0 width=500 height=500></a>');
+                document.write('<img src="'+theImages[whichImage]+'" border=0 width=602 height=600></a>');
                 }
                 else if(whichImage==3){
-                document.write('<img src="'+theImages[whichImage]+'" border=0 width=500 height=500></a>');
+                document.write('<img src="'+theImages[whichImage]+'" border=0 width=602 height=600></a>');
                 }
                 if(whichImage==4){
-                document.write('<img src="'+theImages[whichImage]+'" border=0 width=500 height=500></a>');
+                document.write('<img src="'+theImages[whichImage]+'" border=0 width=602 height=600></a>');
                 }
                 else if(whichImage==5){
-                document.write('<img src="'+theImages[whichImage]+'" border=0 width=500 height=500></a>');
+                document.write('<img src="'+theImages[whichImage]+'" border=0 width=602 height=600></a>');
                 }
             }
 
             //function to show a prompt depending on the dice image
             function showPrompt() {
                 if (whichImage==0){
-                    document.write("You must clean your room.")
+                    DiceImageZero();
                 }
                 else if (whichImage==1){
-                    document.write('You must feed the cows.');
+                    DiceImageOne();
                 }
                 else if (whichImage==2){
-                    document.write('Buy a house.');
+                    DiceImageTwo();
                 }
                 else if (whichImage==3){
                     document.write('Take out the rubbish.');
@@ -72,6 +72,30 @@
                 else if (whichImage==5){
                     document.write('Tell your wife that you love her.');
                 }
+            }
+
+            function DiceImageZero() {
+                document.write("Clean your room.<br> Would it not be nice to have a clean room for a change?<br>You could get so much done once you have a nice, tidy room with no rubbish to climb over.");
+            }
+            function DiceImageOne() {
+                document.write(`Hello there <br> wouldn't you like to see a magic<br>
+                trick?`);
+            }
+            function DiceImageTwo() {
+                document.write(`Give away something.<br>
+                Surprise someone with a nice little gift.<br>
+                Do you have any spare change to give to someone who is down on their luck?<br>
+                Is the local charity shop requiring donations? Do something nice. <br>
+                Lift some spirits.`);
+            }
+            function DiceImageThree() {
+                
+            }
+            function DiceImageFour() {
+                
+            }
+            function DiceImageFive() {
+                
             }
         </script>
 
@@ -87,7 +111,7 @@
                 </article>
             </div><div class="prompts">
                 <article>
-                    <p><script>showPrompt();</script></p>
+                    <p class="promptText"><script>showPrompt();</script></p>
                 </article>
             </div>
             
