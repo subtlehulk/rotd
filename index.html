@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Roll of the Dice - Home</title>
         <link rel="stylesheet" type="text/css" href="style.css"/>
 
 
@@ -51,6 +52,27 @@
                 }
             }
 
+            //function to show a prompt depending on the dice image
+            function showPrompt() {
+                if (whichImage==0){
+                    document.write("You must clean your room.")
+                }
+                else if (whichImage==1){
+                    document.write('You must feed the cows.');
+                }
+                else if (whichImage==2){
+                    document.write('Buy a house.');
+                }
+                else if (whichImage==3){
+                    document.write('Take out the rubbish.');
+                }
+                else if (whichImage==4){
+                    document.write('Twok a car.');
+                }
+                else if (whichImage==5){
+                    document.write('Tell your wife that you love her.');
+                }
+            }
         </script>
 
     </head>
@@ -61,6 +83,9 @@
         <section class="dice-container">
             <article class="dice">
                 <script>showImage();</script>
+            </article>
+            <article class="prompts">
+                <p><script class="prompt-text">showPrompt();</script></p>
             </article>
         </section>
         <section class="button-container">
