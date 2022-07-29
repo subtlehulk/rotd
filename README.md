@@ -13,6 +13,8 @@ Phase 2:
 
 Phase 2.1:
     Web application V2 - This will be the most fleshed out iteration of the web application, providing the complete experience for the users. They will be able to keep track of prompts they have completed, included those that they may have refused, or forgot about. There will be a login function to hold this informtation, along with the ability to change the dice skin, pick prompt themes, and have a bit more fun than other iterations of the project.
+    ***UPDATE***
+    As of 29/07/2022, I have decided to use Blazor to create this web application as opposed to using native JS/react/Node.js etc, as I am currently falling back in love with C# and see this route as the most plausable route to take.
 
 Phase 3:
     Mobile application - A more native experience for users. Once the app is downloaded and installed, the user can disconnect from wifi and data and still be able to use the app (ngl, this was proposed in case the user is having a party in the woods with choppy to no signal, rather than just having the flexibility).
