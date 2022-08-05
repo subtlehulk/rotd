@@ -56,30 +56,40 @@
             function showPrompt() {
                 if (whichImage==0){
                     DiceImageZero();
+                    
                 }
                 else if (whichImage==1){
                     DiceImageOne();
+                    
                 }
                 else if (whichImage==2){
                     DiceImageTwo();
+                    
                 }
                 else if (whichImage==3){
-                    document.write('Take out the rubbish.');
+                    DiceImageThree();
+                    
                 }
                 else if (whichImage==4){
                     document.write('Twok a car.');
+                    
                 }
                 else if (whichImage==5){
                     document.write('Tell your wife that you love her.');
+                    
                 }
             }
 
             function DiceImageZero() {
-                document.write("Clean your room.<br> Would it not be nice to have a clean room for a change?<br>You could get so much done once you have a nice, tidy room with no rubbish to climb over.");
+                document.write(`Go out side and touch some grass. IDK. What do the kids do these days?
+                No cap, do it. It's a vibe and I promise you this is 1000% ironic so don't go calling
+                <br> me a boomer otherwise I will bring about GPU-pocalypse 2..I will do it!`);
             }
             function DiceImageOne() {
-                document.write(`Hello there <br> wouldn't you like to see a magic<br>
-                trick?`);
+                document.write(`Hello there <br> wouldn't you like to see a magic trick?<br>
+                What if you could BE the trick? Wouldn't that be something else entirely?
+                Your task is to catfish a family member into thinking you are someone you're not!
+                <br> All in good jest, of course.`);
             }
             function DiceImageTwo() {
                 document.write(`Give away something.<br>
@@ -89,10 +99,14 @@
                 Lift some spirits.`);
             }
             function DiceImageThree() {
-                
+                document.write(`Take out the rubbish.<br>
+                You're not a pig, are you? So don't live like one.
+                This ain't no farm! And don't just loop the bag and pull it out. Ensure it isn't too heavy as
+                the moment<br>
+                the rubbish collectors take it, we are liable for the mess they leave behind. `);
             }
             function DiceImageFour() {
-                
+                document.write(``)
             }
             function DiceImageFive() {
                 
@@ -101,6 +115,26 @@
 
     </head>
     <body>
+        <nav id="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        Contact me
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        About Port Fire Apps
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="#">
+                        More
+                    </a>
+                </li>
+            </ul>
+        </nav>
         <header id="rotd">
             <h1> Roll of the Dice</h1>
         </header>
