@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: #002244;
     font-family:'Courier New', Courier, monospace;
     width: auto;
     height: 100%;
@@ -19,14 +19,59 @@ body {
     text-align: center;
 }
 h1 {
+    color: #A5ACAF;
+    
     text-align: center;
     font-size: 50px;
     margin-top: 0px;
 }
+#boxes {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: inline-block;
+}
 
+.one {
+    width: 20%;
+    height: 30px;
+    background-color: #b1e5ff;
+    display: inline-block;
+}
+
+.two {
+    width: 20%;
+    height: 30px;
+    background-color: #e5af45;
+    display: inline-block;
+}
+.three {
+    width: 20%;
+    height: 30px;
+    background-color: #8c6ecc;
+    display: inline-block;
+}
+.four {
+    width: 20%;
+    height: 30px;
+    background-color: #c5ffba;
+    display: inline-block;
+}
+.five {
+    width: 20%;
+    height: 30px;
+    background-color: #eef670;
+    display: inline-block;
+}
+.six {
+    width: 20%;
+    height: 30px;
+    background-color: #f291b4;
+    display: inline-block;
+}
 .dice-container {
     width: 100%;
-    height: 600px;
+    height: 500px;
     margin: auto;
     display: flex;
 }
@@ -34,23 +79,19 @@ div {
     flex-grow: 1;
 } 
 .dice {
-    width: 43%;
-    height: 100%;
-    
+    width: 40%;
+    height: 500px;
 }
 
 .prompts {
     background-color: aliceblue;
-    width: 57%;
+    width: 75%;
     height: 100%;
-    vertical-align: super;
 }
 
 
 .button-container {
-    width: 90%;
-    margin:auto;
-    
+    width: 100%;   
 }
 .button {
     width: 100%;
@@ -83,9 +124,9 @@ div {
 }
 
 #navigation a {
-    color: black;
+    color: #A5ACAF;
     text-decoration: none;
 }
 #navigation a:hover{
-    color: white;
+    color: #69BE28;
 }
