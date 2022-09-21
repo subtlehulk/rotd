@@ -172,6 +172,18 @@ div {
 #
 */
 
+#mainAbout {
+    width: 100%;
+    background-color: #000;
+    height: auto;
+    margin: 0;
+}
+.team {
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: left;
+}
 #sectionOne, #sectionTwo {
     width: 100%;
     display: inline-flex;
@@ -188,13 +200,19 @@ div {
     width: 100%;
     height: 100%;
 }
-.seami {
+.seamiSea, .seamiMid {
     display: inline-flex;
     width: 55%;
     height: 20em;
-    background-color: #69BE28;
 }
+.seamiSea {
+    background-color: #A5ACAF;
+    text-align: left;
+}
+.seamiMid {
+    background-color: #f291b4;
 
+}
 .footer {
     border-top: 1px solid black;
     width: 100%;
