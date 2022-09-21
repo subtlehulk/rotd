@@ -14,12 +14,12 @@
             var theImages = new Array()
 
             //Random-loading images
-            theImages[0] = 'images/dice.png' // replace with names of images
-            theImages[1] = 'images/dice2.png' // replace with names of images
-            theImages[2] = 'images/dice3.png' // replace with names of images
-            theImages[3] = 'images/blackDice.png' // replace with names of images
-            theImages[4] = 'images/blackDice2.png' // replace with names of images
-            theImages[5] = 'images/blackDice3.png' // replace with names of images
+            theImages[0] = 'images/diceBlue.png' // replace with names of images
+            theImages[1] = 'images/diceGreen.png' // replace with names of images
+            theImages[2] = 'images/diceYellow.png' // replace with names of images
+            theImages[3] = 'images/dicePurple.png' // replace with names of images
+            theImages[4] = 'images/diceRed.png' // replace with names of images
+            theImages[5] = 'images/diceOrange.png' // replace with names of images
 
             var j = 0
             var p = theImages.length;
@@ -115,22 +115,22 @@
 
     </head>
     <body>
-        <nav id="navigation">
+        <nav class="navigation">
             <ul>
                 <li>
-                    <a href="contact.html">
-                        Contact me
+                    <a class="indexLink" href="index.html">
+                        Home
                     </a>
                 </li>
                 <li>
-                    <a href="about.html">
+                    <a class="aboutLink" href="about.html">
                         About SeaMi Studios
                     </a>
                     
                 </li>
                 <li>
-                    <a href="#">
-                        More
+                    <a class="contactLink" href="contact.html">
+                        Contact Us
                     </a>
                 </li>
             </ul>
@@ -151,22 +151,40 @@
                 <article class="dice images">
                     <script>showImage();</script>
                 </article>
-            </div><div class="prompts">
-                <article>
+            </div>
+            <div class="prompts">
+                <article class="showPrompts">
                     <p class="promptText"><script>showPrompt();</script></p>
                 </article>
             </div>
-            
         </section>
         <section class="button-container">
             <article class="button">
                 <button class="change-dice" onClick="refreshPage()">Press me</button>
             </article>
         </section>
-        <footer class="contact-us">
-
+        <footer class="footer">
+            <nav class="navigation">
+                <ul>
+                    <li>
+                        <a class="indexLink" href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a class="aboutLink" href="about.html">
+                            About SeaMi Studios
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a class="contactLink" href="contact.html">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </footer>
         
-
     </body>
 </html>
