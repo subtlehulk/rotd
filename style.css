@@ -86,7 +86,7 @@ div {
 }
 
 .prompts {
-    background-color: ;
+    
     width: 75%;
     height: auto;
     position: relative;
@@ -99,7 +99,7 @@ div {
     position: absolute;
     top: 50%;
     transform: translate(0, -30%);
-    background-color: red;
+    
 }
 
 /*
@@ -211,6 +211,7 @@ div {
 }
 .seamiMid {
     background-color: #f291b4;
+    text-align: left;
 
 }
 .footer {
@@ -231,15 +232,23 @@ div {
     display: inline-flex;
     height: auto;
 }
-.form {
+.details {
     margin: auto;
     width: 81.5%;
     height: 35em;
-    background: #69BE28;
 }
 .contactDetails {
     width: 30%;
-    background: white;
+    /* background: white; */
+    border-right: black dotted;
+    display: inline-block;
+}
+.diceLogo {
+    width: 60%;
+    display: inline-block;
+}
+.diceLogo img {
+    margin-top: 10px;
 }
 .textArea {
     resize: none;
@@ -251,5 +260,5 @@ div {
 }
 .submit:hover {
     background: black;
-    color: yellow;
+    color: white;
 }
