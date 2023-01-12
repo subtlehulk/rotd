@@ -87,24 +87,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     </head>
     <body onload="setbackground();">
-        <nav class="navigation">
+    <nav class="navigation">
             <ul>
                 <li>
                     <a class="indexLink" href="index.html">
                         Home
                     </a>
                 </li>
-                <li>
+                <div class="dropdown">
                     <a class="aboutLink" href="about.html">
                         About SeaMi Studios
                     </a>
-                    
-                </li>
+                    <div class="dropdown-content">
+                        <a class="dropOne" href="corey.html">Corey</a>
+                        <a class="dropTwo" href="courtney.html" >Courtney</a>
+                    </div>
+                </div>
                 <li>
                     <a class="contactLink" href="contact.php">
                         Contact Us
                     </a>
                 </li>
+                
             </ul>
         </nav>
         <header id="mainHeader">
