@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box;
 }
@@ -11,6 +13,8 @@ body {
     text-align: center;
     vertical-align: middle;
 }
+
+
 
 #mainHeader {
     width: 80%;
@@ -86,7 +90,6 @@ div {
 }
 
 .prompts {
-    
     width: 75%;
     height: auto;
     position: relative;
@@ -100,6 +103,9 @@ div {
     top: 50%;
     transform: translate(0, -30%);
     
+}
+.smallScreenText {
+    display: none;
 }
 
 /*
@@ -287,7 +293,7 @@ div {
 .contactDetails {
     width: 30%;
     /* background: white; */
-    border-right: black dotted;
+    /* border-right: black dotted; */
     display: inline-block;
 }
 .diceLogo {
@@ -308,4 +314,114 @@ div {
 .submit:hover {
     background: black;
     color: white;
+}
+@media only screen and (max-width: 992px) {
+    .dice-container {
+        width: 500px;
+    }
+    .dice {
+        margin: auto;
+        width: 100%;
+    }
+    .dice img {
+        width: 500px;
+        height: 500px;
+        margin: auto;
+    }
+    .prompts {
+        display:none;
+    }
+    .showPrompts{
+        display:block;
+    }
+    .smallScreenText {
+        font-size: large;
+        display: block;
+    }
+    /*
+        About Page
+    */
+    .cityImage {
+        display: inline-flex;
+        width: 40%;
+        height: 12em;
+        background-color: white;
+    }
+    .city {
+        display: inline-flex;
+        width: 100%;
+        height: 100%;
+    }
+    .seamiSea, .seamiMid {
+        display: inline-flex;
+        width: 55%;
+        height: auto;
+    }
+    .seamiSea {
+        background-color: #A5ACAF;
+        text-align: left;
+    }
+    .seamiMid {
+        background-color: #f291b4;
+        text-align: left;
+    
+    }
+    /*
+    #
+    # Contact Us Page
+    #
+    */
+
+    #contact {
+        width: 100%;
+        height: auto;
+    }
+    .details {
+        margin: auto;
+        width: 81.5%;
+        height: 35em;
+    }
+    .contactDetails {
+        width: 100%;
+        display: inline-block;
+    }
+    .textArea {
+        resize: none;
+    }
+    .submit {
+        background: white;
+        color: black;
+
+    }
+    .submit:hover {
+        background: black;
+        color: white;
+    }
+    .diceLogo {
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .dice-container {
+        width: 500px;
+    }
+    .dice {
+        margin: auto;
+        width: 100%;
+    }
+    .dice img {
+        width: 500px;
+        height: 500px;
+        margin: auto;
+    }
+    .prompts {
+        display:none;
+    }
+    .showPrompts{
+        display:block;
+    }
+    .smallScreenText {
+        font-size: large;
+        display: block;
+    }
 }
